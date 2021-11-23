@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratical 12</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       *
+       {
+           padding: 0;
+           margin: 0;
+           box-sizing: border-box;
+       }
+       body{
+           min-width: 100%;
+           background-color: lightgrey;
+       }
+       .wrapper
+       {
+           width: 600px;
+           background-color:#fff;
+           padding: 10px;
+            margin:20px auto;
+
+       }
+       
+       
+       
+        .customer
+        {
+            width:100%;
+            margin:0 auto;
+            
+
+        }
+        .basic
+        {
+            background-color: #c1dcb7;
+        }
+        .plus
+        {
+            background-color: #bad6c8;
+
+        }
+        .deluxe
+        {
+            background-color: #bbd3dc;
+        }
+        .pro
+        {
+            background-color: #d5e4bc;
+        }
+        table
+        {
+            border-collapse: collapse;
+        }
+      
+      .customer td,.customer th
+      {
+          width: 150px;
+          padding:8px 5px;
+          text-align: center;
+          border-right:2px solid white;
+          border-left:2px solid white;
+      }
+      .customer th
+      {
+
+          height:70px;
+          color: #64548f;
+          font-size: 30px;
+      }
+      i
+      {
+          font-size: 30px;
+          color: #64548f;
+          margin-right: 3px;
+      }
+      h2
+      {
+          text-align: center;
+          margin-bottom:10px;
+
+      }
+      tbody tr:nth-child(odd)
+     
+      {
+          background-color: #edf3e2;
+      }
+     tfoot tr
+     {
+         line-height:70px;
+     }
+     a
+     {
+         text-decoration: none;
+         background:#64548f;
+         color: white;
+         font:20px;
+         vertical-align:middle;
+         padding: 15px 25px;
+         border-radius: 10px;
+     }
+     a:hover
+     {
+         background-color: red;
+     }
+     tbody tr:first-child td
+     {
+         font-size:20px;
+     }
+    
+        
+        
+
+    </style>
+</head>  
+<body>
+<div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+    </div>
+    <div class="wrapper">
+        <h2><i>Select Your food product</i></h2>
+       
+    <table class="customer" >
+        <colgroup class="basic"></colgroup>
+        <colgroup class="plus"></colgroup>
+        <colgroup class="deluxe"></colgroup>
+        <colgroup class="pro"></colgroup>
+        <thead>
+            <tr>
+                <th><i>Product</i></th>
+                <th> <i>Basic</i></th>
+                <th><i>Deluxe</i></th>
+                <th><i>Pro</i></th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><I>PANEER TIKKA</I> </td>
+                <td> 50</td>
+                <td>60</td>
+                <td> 80</td>
+            </tr>
+            <tr>
+                <td> <I>PAU BHAJI</I> </td>
+                <td>65 </td>
+                <td> 75</td>
+                <td> 90</td>
+            </tr>
+            <tr>
+                <td><I>PIZZA</I></td>
+                <td> 90</td>
+                <td> 120</td>
+                <td> 150</td>
+            </tr>
+            <tr>
+                <td> <I>BURGER</I></td>
+                <td>30</td>
+                <td>50</td>
+                <td> 80</td>
+            </tr>
+            <tr>
+                <td><I>VANILLA ICECREAM</I></td>
+                <td>55</td>
+                <td> 60</td>
+                <td>85 </td>
+            </tr>
+            <tr>
+                <td><I> MISTIDOE</I></td>
+                <td>90</td>
+                <td> 130</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td><I>CHOLE BATORE</I></td>
+                <td>20</td>
+                <td>50</td>
+                <td>85</td>
+            </tr><tr>
+                <td><I>CHAUMIN</I></td>
+                <td>65</td>
+                <td>70</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>RABDI</I></td>
+                <td>120</td>
+                <td>150</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td><I>SAMOSA</I></td>
+                <td>15</td>
+                <td>30</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td><I>CAKE</I></td>
+                <td>120</td>
+                <td>150</td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td><I>CHIKEN</I></td>
+                <td>150</td>
+                <td>220</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td><I>LEG PIECE</I></td>
+                <td>120</td>
+                <td>125</td>
+                <td>160</td>
+            </tr>
+            
+        </tbody>
+        
+    </div>
+    
+</body>
+</html>
